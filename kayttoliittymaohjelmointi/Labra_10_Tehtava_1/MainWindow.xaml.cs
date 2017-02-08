@@ -72,7 +72,7 @@ namespace Labra_10_Tehtava_1
             }
             
         }
-
+        string s = "";
         private void BuyItems (object sender, RoutedEventArgs e)
         {
             try
@@ -84,7 +84,7 @@ namespace Labra_10_Tehtava_1
                         TextBlock chk = (TextBlock)obj;
                         if (chk.Name == "txbShoppingList")
                         {
-                            string s = "";
+                            
                             foreach (CheckBox chkBox in chkList)
                             {
                                 if (chkBox.IsChecked == true)
