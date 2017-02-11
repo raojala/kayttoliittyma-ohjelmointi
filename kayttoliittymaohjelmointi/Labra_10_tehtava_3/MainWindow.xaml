@@ -1,0 +1,24 @@
+﻿<Window x:Class="Labra_10_tehtava_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labra_10_tehtava_3"
+        mc:Ignorable="d"
+        Title="Rami Ojala | Labra 10 - Tehtava 3" Height="317" Width="394.5" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Label x:Name="lblChooseGame" Content="Choose a game: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbGameType" Margin="113,14,10,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="85"/>
+        <Label x:Name="lblNumberofRows" Content="Rows: " HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtRows" HorizontalAlignment="Left" Height="23" Margin="158,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Text="2"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="54,72,0,0" VerticalAlignment="Top" Width="45" Click="btnCreate_Click"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="113,72,0,0" VerticalAlignment="Top" Width="45" Click="btnClear_Click"/>
+        <Label x:Name="lblGeneratedRows" Content="Rows: " HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txbRows" Margin="10,109,10,10" TextWrapping="Wrap" Height="250" VerticalAlignment="Top" Background="#FFFFF6D7" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+
+    </Grid>
+
+
+
+</Window>
