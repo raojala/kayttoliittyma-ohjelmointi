@@ -7,7 +7,7 @@
       <Entity type="Class">
         <Name>Game</Name>
         <Access>Public</Access>
-        <Location left="215" top="58" />
+        <Location left="10" top="10" />
         <Size width="479" height="315" />
         <Collapsed>False</Collapsed>
         <Member type="Field">public enumerator GameTypes</Member>
@@ -29,7 +29,7 @@
       <Entity type="Class">
         <Name>Row</Name>
         <Access>Public</Access>
-        <Location left="215" top="414" />
+        <Location left="10" top="366" />
         <Size width="479" height="179" />
         <Collapsed>False</Collapsed>
         <Member type="Field">int[] numbers</Member>
@@ -48,8 +48,8 @@
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="False">
-          <X>342</X>
-          <Y>389</Y>
+          <X>137</X>
+          <Y>341</Y>
         </BendPoint>
       </Relationship>
     </Relationships>
