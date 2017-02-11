@@ -71,6 +71,15 @@ namespace Labra_10_tehtava_3
                     {
                         txbRows.Text += number + " ";
                     }
+                    if (game.GameType == Game.GameTypes.EuroJackpot)
+                    {
+                        txbRows.Text += "+ ";
+                        foreach (int star in row.Stars)
+                        {
+                            txbRows.Text += star + " ";
+                        }
+                    }
+
                     txbRows.Text += "\n";
                 }
             }

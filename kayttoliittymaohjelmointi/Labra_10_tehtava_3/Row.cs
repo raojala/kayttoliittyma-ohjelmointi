@@ -5,7 +5,7 @@ namespace Labra_10_tehtava_3
 {
 	public class Row
 	{
-		int[] numbers, stars;
+        int[] numbers, stars;
 
         public int[] Numbers
         {
@@ -25,7 +25,7 @@ namespace Labra_10_tehtava_3
                 numbers = new int[lengthPerRow];
                 for (int i = 0; i < numbers.Length; i++)
                 {
-                    numbers[i] = CreateAndCheckDuplicates(numbers, min, max, rand);
+                    numbers[i] = CreateAndCheckDuplicates(min, max, rand, false);
                 }
                 Array.Sort(numbers);
             }
@@ -43,7 +43,7 @@ namespace Labra_10_tehtava_3
                 stars = new int[starslength];
                 for (int i = 0; i < stars.Length; i++)
                 {
-                    stars[i] = CreateAndCheckDuplicates(stars, min, starnumbers, rand);
+                    stars[i] = CreateAndCheckDuplicates(min, starnumbers, rand, true);
                 }
                 Array.Sort(stars);
             }
@@ -56,16 +56,29 @@ namespace Labra_10_tehtava_3
 
         // method that creates a number, then checks it against excisting numbers in an array 
         // and keeps creating new number until you get one thats not in the list.
-        public int CreateAndCheckDuplicates(int[] arrayToCheck, int min, int max, Random rand)
+        public int CreateAndCheckDuplicates(int min, int max, Random rand, bool euroJackpot)
         {
             try
             {
-                int number = rand.Next(min, max);
+                int number;
 
                 // use LINQ to  check if the array contains the random number.
-                while (arrayToCheck.Contains(number))
+                if (euroJackpot)
                 {
-                    number = rand.Next(min, max);
+                    do
+                    {
+                        do
+                        {
+                            number = rand.Next(min, max);
+                        } while (stars.Contains(number));
+                    } while (numbers.Contains(number));
+                }
+                else
+                {
+                    do
+                    {
+                        number = rand.Next(min, max);
+                    } while (numbers.Contains(number));
                 }
                 return number;
             }

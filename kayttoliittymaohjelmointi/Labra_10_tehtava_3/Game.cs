@@ -12,7 +12,15 @@ namespace Labra_10_tehtava_3
             EuroJackpot
         }
 
-		public List<Row> Rows
+        public GameTypes GameType
+        {
+            get
+            {
+                return gameType;
+            }
+        }
+
+        public List<Row> Rows
 		{
 			get
 			{
@@ -24,10 +32,12 @@ namespace Labra_10_tehtava_3
 		{
             try
             {
+                gameType = game;
+
                 rows = new List<Row>();
                 int numbers = 0, maxNumber = 0;
                 // set the maximum number of numbers generated for the row
-                switch (game)
+                switch (gameType)
                 {
                     case GameTypes.Lotto:
                         numbers = ROWLENGTHLOTTO;
@@ -46,7 +56,7 @@ namespace Labra_10_tehtava_3
                 Random rand = new Random();
                 for (int i = 0; i < numberOfRows; i++)
                 {
-                    if (!(game == GameTypes.EuroJackpot))
+                    if (!(GameType == GameTypes.EuroJackpot))
                     {
                         // create a row and input length of the row, maxnumber + 1 (rand ignores set highest) and random. 
                         rows.Add(new Row(numbers, 1, maxNumber + 1, rand));
@@ -76,6 +86,7 @@ namespace Labra_10_tehtava_3
             ROWLENGTHEUROJACKPOT = 5,
             ROWLENGTHEUROJACKPOTSTARS = 2;
         List<Row> rows;
+        GameTypes gameType;
         #endregion
     }
 }

@@ -8,9 +8,10 @@
         <Name>Game</Name>
         <Access>Public</Access>
         <Location left="215" top="58" />
-        <Size width="479" height="281" />
+        <Size width="479" height="315" />
         <Collapsed>False</Collapsed>
         <Member type="Field">public enumerator GameTypes</Member>
+        <Member type="Field">GameTypes gameType</Member>
         <Member type="Field">List&lt;Row&gt; rows</Member>
         <Member type="Field">const int MAXNUMBERLOTTO = 40</Member>
         <Member type="Field">const int MAXNUMBERVIKINGLOTTO = 48</Member>
@@ -21,13 +22,14 @@
         <Member type="Field">const int ROWLENGTHEUROJACKPOT = 7</Member>
         <Member type="Field">const int ROWLENGTHEUROJACKPOTSTARS = 2</Member>
         <Member type="Property">public List&lt;Row&gt; Rows { get; }</Member>
+        <Member type="Property">public GameTypes GameType { get; }</Member>
         <Member type="Constructor">public Game(GameType game, int numberOfRows)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Row</Name>
         <Access>Public</Access>
-        <Location left="215" top="372" />
+        <Location left="215" top="414" />
         <Size width="479" height="179" />
         <Collapsed>False</Collapsed>
         <Member type="Field">int[] numbers</Member>
@@ -41,11 +43,13 @@
     </Entities>
     <Relationships>
       <Relationship type="Dependency" first="0" second="1">
+        <Label>
+        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="False">
           <X>342</X>
-          <Y>347</Y>
+          <Y>389</Y>
         </BendPoint>
       </Relationship>
     </Relationships>

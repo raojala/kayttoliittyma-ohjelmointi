@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra_10_Tehtava_2", "Labra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra_10_tehtava_3", "Labra_10_tehtava_3\Labra_10_tehtava_3.csproj", "{01F0FDDA-84FC-4497-BD57-4CFB3D8E38D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra_10_tehtava_3Tests", "Labra_10_tehtava_3Tests\Labra_10_tehtava_3Tests.csproj", "{9CE0D937-AE0C-4FD5-A190-D02A50A45E00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{01F0FDDA-84FC-4497-BD57-4CFB3D8E38D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01F0FDDA-84FC-4497-BD57-4CFB3D8E38D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01F0FDDA-84FC-4497-BD57-4CFB3D8E38D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE0D937-AE0C-4FD5-A190-D02A50A45E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE0D937-AE0C-4FD5-A190-D02A50A45E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE0D937-AE0C-4FD5-A190-D02A50A45E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE0D937-AE0C-4FD5-A190-D02A50A45E00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
