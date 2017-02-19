@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Labra_11_tehtava_3.Henkilo">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIAAAAAAAAAAAgAAAAIAAAAAAAEAIAAAAAAA=</HashCode>
+      <FileName>Henkilo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Labra_11_tehtava_3.Tyontekija">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAACAACAAIAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Tyontekija.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Labra_11_tehtava_3.Vakituinen">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAA=</HashCode>
+      <FileName>Vakituinen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Labra_11_tehtava_3.OsaAikainen">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAAgAAA=</HashCode>
+      <FileName>OsaAikainen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

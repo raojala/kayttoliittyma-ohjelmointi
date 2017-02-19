@@ -80,5 +80,23 @@ namespace WPFDataBindingDemo2
                 btnBind_Click(sender, e);
             }
         }
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (txtJoukkueNimi.Text.Length > 0 && txtJoukkueKaupunki.Text.Length > 0)
+                {
+                    HockeyTeam temp = new HockeyTeam(txtJoukkueNimi.Text, txtJoukkueKaupunki.Text);
+                    liiga.AddTeam(temp);
+                    txtJoukkueNimi.Text = "";
+                    txtJoukkueKaupunki.Text = "";
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + "\n\n" + ex, "error while adding team");
+            }
+        }
     }
 }

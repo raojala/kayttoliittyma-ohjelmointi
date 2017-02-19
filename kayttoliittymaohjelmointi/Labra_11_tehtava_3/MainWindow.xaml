@@ -1,0 +1,50 @@
+﻿<Window x:Class="Labra_11_tehtava_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labra_11_tehtava_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <ListBox x:Name="lstNimet" Width="250" SelectionChanged="lstNimet_SelectionChanged"/>
+            <GroupBox Header="Työntekijän tiedot">
+                <Grid>
+                    <StackPanel>
+                        <Label Content="etunimi" />
+                        <TextBox x:Name="txtEtunimi" />
+
+                        <Label Content="sukunimi" />
+                        <TextBox x:Name="txtSukunimi" />
+
+                        <Label Content="Työntekijä numero" />
+                        <TextBox x:Name="txtTTNro" />
+
+                        <Label Content="titteli" />
+                        <TextBox x:Name="txtTitteli" />
+
+                        <Label Content="palkka" />
+                        <TextBox x:Name="txtPalkka" />
+
+                        <Label Content="Työsuhde" />
+                        <RadioButton x:Name="rdbVakituinen" Content="Vakituinen" IsChecked="True" GroupName="tyosuhde"/>
+                        <RadioButton x:Name="rdbOsaAikainen" Content="Osa-aikainen" GroupName="tyosuhde" />
+
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+
+            <GroupBox Header="Palkanlaskenta">
+                <Grid>
+                    <StackPanel>
+
+                        <Button x:Name="btnHaeTyontekijat" Content="Haen Työntekijät" Click="btnHaeTyontekijat_Click" />
+                        <Button x:Name="btnTyhjenna" Content="Tyhjennä" Click="btnTyhjenna_Click" />
+                        
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</Window>
