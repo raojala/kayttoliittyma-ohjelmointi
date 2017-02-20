@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDataBindingDemo2", "WPFD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra_11_tehtava_3", "Labra_11_tehtava_3\Labra_11_tehtava_3.csproj", "{C6428349-A41E-427D-8BE2-16998E15217C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDataBindingDemo3_labra_12", "WPFDataBindingDemo3_labra_12\WPFDataBindingDemo3_labra_12.csproj", "{B8DD86D8-2E62-4FDE-9624-5CEEC91AB93D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{C6428349-A41E-427D-8BE2-16998E15217C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6428349-A41E-427D-8BE2-16998E15217C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6428349-A41E-427D-8BE2-16998E15217C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DD86D8-2E62-4FDE-9624-5CEEC91AB93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DD86D8-2E62-4FDE-9624-5CEEC91AB93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DD86D8-2E62-4FDE-9624-5CEEC91AB93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DD86D8-2E62-4FDE-9624-5CEEC91AB93D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,5 +117,6 @@ Global
 		{C776FDFA-B48A-411D-9EF6-C0FCB0495A63} = {121366A7-217A-4127-9FE3-B710F1C73EB9}
 		{042F8E14-6E96-4FD9-BF5B-1349492CFB71} = {121366A7-217A-4127-9FE3-B710F1C73EB9}
 		{C6428349-A41E-427D-8BE2-16998E15217C} = {121366A7-217A-4127-9FE3-B710F1C73EB9}
+		{B8DD86D8-2E62-4FDE-9624-5CEEC91AB93D} = {121366A7-217A-4127-9FE3-B710F1C73EB9}
 	EndGlobalSection
 EndGlobal
