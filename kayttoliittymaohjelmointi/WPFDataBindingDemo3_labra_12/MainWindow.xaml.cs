@@ -24,7 +24,15 @@ namespace WPFDataBindingDemo3_labra_12
         public MainWindow()
         {
             InitializeComponent();
-            svmo.LoadStudents();
+            try
+            {
+                svmo.LoadStudentsFromMySql();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex + " \n " + ex.Message, "ERROR");
+            }
         }
 
         private void StudentViewControl_Loaded(object sender, RoutedEventArgs e)
