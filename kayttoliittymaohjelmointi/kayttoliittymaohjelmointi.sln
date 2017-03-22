@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "labra_14_wpfthreadingdemo",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "labra_14_wpfvrtrains", "labra_14_wpfvrtrains\labra_14_wpfvrtrains.csproj", "{B8702E50-30A0-43E7-BB29-C2B55F2B4373}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labra 15", "Labra 15", "{766B5A1C-D425-4B80-B77B-A3124BA6E308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "madopeli", "madopeli\madopeli.csproj", "{D8345049-27DE-46F7-B6CD-59A256624FAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +119,10 @@ Global
 		{B8702E50-30A0-43E7-BB29-C2B55F2B4373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8702E50-30A0-43E7-BB29-C2B55F2B4373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8702E50-30A0-43E7-BB29-C2B55F2B4373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8345049-27DE-46F7-B6CD-59A256624FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8345049-27DE-46F7-B6CD-59A256624FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8345049-27DE-46F7-B6CD-59A256624FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8345049-27DE-46F7-B6CD-59A256624FAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,5 +142,6 @@ Global
 		{B8DD86D8-2E62-4FDE-9624-5CEEC91AB93D} = {121366A7-217A-4127-9FE3-B710F1C73EB9}
 		{92E0D3BE-4A38-48CA-B2BF-E33C8D5A99D6} = {11FC8BE9-5060-4552-A6EB-6D69FC354B68}
 		{B8702E50-30A0-43E7-BB29-C2B55F2B4373} = {11FC8BE9-5060-4552-A6EB-6D69FC354B68}
+		{D8345049-27DE-46F7-B6CD-59A256624FAD} = {766B5A1C-D425-4B80-B77B-A3124BA6E308}
 	EndGlobalSection
 EndGlobal
